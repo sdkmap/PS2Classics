@@ -23,6 +23,7 @@ jobs:
             git
             make
             mingw-w64-x86_64-qemu
+            mingw-w64-x86_64-toolchain
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Build 
